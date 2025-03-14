@@ -1,0 +1,16 @@
+{
+    "user1": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com",
+        "address": "1234 Elm Street",
+        "address2": "Apt 567",
+        "country": "United Kingdom",
+        "city": "Bristol",
+        "zip": "12345",
+        "cardName": "John Doe",
+        "cardNumber": "4111111111111111",
+        "cardExpiration": "12/25",
+        "cardCVV": "123"
+    }
+}
