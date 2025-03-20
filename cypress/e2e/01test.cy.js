@@ -2,6 +2,7 @@ describe('Basic Functionality Check - Navigation & Links', () => {
 
     beforeEach(() => {
         cy.visit('https://sweetshop.netlify.app/')
+        cy.pageTest();
     });
 
     it('Checks all main page links and buttons', () => {

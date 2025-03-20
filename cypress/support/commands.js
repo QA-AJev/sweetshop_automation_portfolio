@@ -39,3 +39,12 @@ Cypress.Commands.add('fillBillingForm', () => {
 
 
 });
+Cypress.Commands.add('pageTest', () => {
+    cy.url().should('include', 'sweetshop.netlify.app');
+    cy.title().should('not.be.empty');
+    cy.request('https://sweetshop.netlify.app/')
+        .its('status')
+        .should('eq', 200);
+
+    cy.get('body').should('exist');
+});
