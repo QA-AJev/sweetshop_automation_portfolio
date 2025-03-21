@@ -1,12 +1,15 @@
-Svetainės funkcionalumo testų aprašymas:
+Test case scenarios:
 
-1. Home page
+1. Home page functional test
     1.1 Page loaded successfully
     1.2 200 response code received.
     1.3 Page body is loaded.
     1.4 "Sweet shop" should be displayed
     1.5 Basket should be visible
     1.6 Navigation links should be visible
+    1.7 Click on Basket
+    1.8 Page should redirect to basket
+    1.9 Navigation bar links should redirect to correct pages.
 
 2. Cart verification
     2.1 Adding 4 items from main page  to cart.
@@ -45,8 +48,3 @@ Svetainės funkcionalumo testų aprašymas:
     7.2 Login using test@user.com
     7.3 Check if sorting is displayed in correct order
 
-8. Additional nav bar tests from different page
-    8.1 Go to 'https://sweetshop.netlify.app'
-    8.2 Click on Basket
-    8.3 Page should redirect to basket
-    8.4 Navigation bar links should redirect to correct page.
