@@ -38,9 +38,9 @@ describe('Basic Functionality Check - Navigation & Links', () => {
 
 
     });
-    
+
     it('Verifies nav bar links from the basket page remain functional', () => {
-        
+
         cy.get('a.nav-link[href="/basket"]').click();
         cy.url().should('include', '/basket');
         cy.contains('Basket').should('be.visible');
@@ -48,8 +48,8 @@ describe('Basic Functionality Check - Navigation & Links', () => {
         // Check the nav bar links
         cy.get('a.nav-link').each(($link) => {
             const linkHref = $link.attr('href');
-            
-            cy.wrap($link).should('have.attr', 'href').and('match', /^\/(sweets|about|login|basket)$/);  // Checks the possible links
+
+            cy.wrap($link).should('have.attr', 'href').and('match', /^\/(sweets|about|login|basket)$/);
         });
 
         cy.get('a.nav-link[href="/sweets"]').should('have.attr', 'href', '/sweets');
