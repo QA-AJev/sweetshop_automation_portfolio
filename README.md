@@ -39,11 +39,10 @@ Tests cover **UI interactions, user authentication, product ordering, and checko
 
 Make sure you have **Node.js (>=16)** and **Cypress** installed.
 
-````sh
+```sh
 git clone https://github.com/QA-AJev/sweetshop_automation_portfolio.git
 cd sweetshop_automation_portfolio
 npm install
-
 ---
 
 ## ⚙️ Installation
