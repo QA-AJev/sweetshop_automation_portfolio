@@ -57,7 +57,7 @@ Make sure you have **Node.js (>=16)** and **Cypress** installed.
 ### **Run all Cypress tests in UI mode**
 ```sh
 npx cypress open
-````
+```
 
 ### **Run tests in headless mode**
 
